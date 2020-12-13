@@ -27,14 +27,14 @@ NAVBAR
 
 
 <div class="menulinks">
-    <nav>
-       <ul class="mobile-nav-list">
-           <li class="nav-list"><a href="./Users/mac/Documents/Projects/GithubPages/Arctic_Valley_Grill/index.html" class="home">Home</a></li>
-           <li class="nav-list"><a href="./Users/mac/Documents/Projects/GithubPages/Arctic_Valley_Grill/Arctic_menu.html" class="Menu">Menu</a></li>
-           <li class="nav-list"><a href="./Users/mac/Documents/Projects/GithubPages/Arctic_Valley_Grill/Arctic_about_us.html" class="About-us">About Us</a></li>
-           <li class="nav-list"><a href="#contactlink" class="Contact">Contact</a></li>
-        </ul>
-    </nav>
+     <nav>
+        <ul class="mobile-nav-list">
+            <li class="nav-list"><a href="./Users/mac/Documents/Projects/GithubPages/Arctic_Valley_Grill/index.html" class="home">Home</a></li>
+            <li class="nav-list"><a href="./Users/mac/Documents/Projects/GithubPages/Arctic_Valley_Grill/Arctic_menu.md" class="Menu">Menu</a></li>
+            <li class="nav-list"><a href="./Users/mac/Documents/Projects/GithubPages/Arctic_Valley_Grill/Arctic_about_us.md" class="About-us">About Us</a></li>
+            <li class="nav-list"><a href="#contactlink" class="Contact">Contact</a></li>
+         </ul>
+     </nav>
 </div>
 
 
@@ -81,13 +81,13 @@ FOOTER
             </li> 
 
             <li>
-                <a href="./Users/mac/Documents/Projects/GithubPages/Arctic_Valley_Grill/Arctic_menu.html">
+                <a href="./Users/mac/Documents/Projects/GithubPages/Arctic_Valley_Grill/Arctic_menu.md">
                     <p>Menu</p>
                 </a>
             </li>
 
             <li>
-                <a href="./Users/mac/Documents/Projects/GithubPages/Arctic_Valley_Grill/Arctic_about_us.html">
+                <a href="./Users/mac/Documents/Projects/GithubPages/Arctic_Valley_Grill/Arctic_about_us.md">
                     <p>About Us</p>
                 </a>
             </li>
