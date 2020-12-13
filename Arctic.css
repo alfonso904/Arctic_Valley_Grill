@@ -74,7 +74,7 @@ a {
 }
 
 
-.landing-block{
+.landing-block {
     padding-top: 3rem;
     padding-bottom: 3rem;
 }
@@ -98,7 +98,7 @@ p {
     font-family: 'montserrat';
 }
 
-.second-landing-block{
+.second-landing-block {
     padding-top: 3rem;
     padding-bottom: 3rem;
     float: right;
@@ -117,7 +117,7 @@ p {
 }
 
 
-.third-landing-block{
+.third-landing-block {
     padding-top: 3rem;
     padding-bottom: 3rem;
     float: right;
@@ -213,6 +213,8 @@ h3 {
 
 .restaurant, .signature-entree-block-pic {
     justify-content: center;
+    align-items: center;
+    width: 100%;
     display: inline-flex;
     margin-top: 3rem;
 }
@@ -224,7 +226,6 @@ h3 {
     height: 60%;
     box-shadow: 10px 10px 35px 7px grey;
     border-radius: 5px;
-  
 
 }
 
