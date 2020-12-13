@@ -4,10 +4,6 @@
     letter-spacing: 1px;;
 }
 
-p {
-    font-size: 1rem;
-}
-
 
 
 header {
@@ -65,14 +61,13 @@ nav {
     padding: 0;
 }
 
-.home, .menu, .about_us, .contact {
+
+
+a {
     text-decoration: none;
     color: black;
-    font-size: calc((.1em + 1vmin) + (.1em + 1vmax));
-    padding-left: 1rem;
+
 }
-
-
 
 
 .landing-block{
@@ -92,7 +87,7 @@ nav {
 
 h2 {
     font-family: 'Londrina Solid', cursive;
-    font-size: 200%;
+    font-size: 220%;
 }
 
 p {
@@ -151,6 +146,7 @@ p {
 h3 {
     font-family: 'Londrina Solid', cursive;
     font-size: calc((.4em + 2vmin) + (.4em + 2vmax));
+    line-height: 2.9rem;
     
 }
 
@@ -169,7 +165,7 @@ h3 {
 
 .menu-column-left, .menu-column-right, .menu-list {
     list-style-type: none;
-    min-height: 20rem;
+    min-height: 24rem;
     overflow: hidden;
   }  
 
@@ -291,17 +287,12 @@ h3 {
     border-top: 1px solid hsl(0, 0%, 0%);
 }
 
-
-.navigation-ul, a {
+.navigation-ul {
     list-style-type: none;
-    text-decoration: none;
-    color: black;
-
 }
 
 .contact-us-footer-info {
     list-style-type: none;
-    font-size: 1rem !important;
 }
 
 
