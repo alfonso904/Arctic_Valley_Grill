@@ -4,6 +4,10 @@
     letter-spacing: 1px;;
 }
 
+p {
+    font-size: 1rem;
+}
+
 
 
 header {
@@ -25,7 +29,7 @@ h1 {
     padding-top: 7rem;
     padding-bottom: 7rem;
     font-family: 'Londrina Solid', cursive;
-    font-size: 400%;
+    font-size: 340%;
     letter-spacing: 3px;
     color: rgba(253, 253, 253, 0.863);
     opacity: 1.4;
@@ -40,7 +44,7 @@ h1 {
 }
 
 nav {
-    margin-top: -2.7rem;
+    margin-top: -2.3rem;
     text-align: center;
     display: flex;
     justify-content: center;
@@ -64,9 +68,11 @@ nav {
 a {
     text-decoration: none;
     color: black;
-    font-size: 1.1rem;
-
+    font-size: calc((.1em + 1vmin) + (.1em + 1vmax));
+    padding-left: 1rem;
 }
+
+
 
 
 .landing-block{
@@ -144,7 +150,7 @@ p {
 
 h3 {
     font-family: 'Londrina Solid', cursive;
-    font-size: 200%;
+    font-size: calc((.4em + 2vmin) + (.4em + 2vmax));
     
 }
 
@@ -287,10 +293,12 @@ h3 {
 
 .navigation-ul {
     list-style-type: none;
+
 }
 
 .contact-us-footer-info {
     list-style-type: none;
+    font-size: 1rem !important;
 }
 
 
