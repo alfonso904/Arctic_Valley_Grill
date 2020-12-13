@@ -87,7 +87,7 @@ a {
 
 h2 {
     font-family: 'Londrina Solid', cursive;
-    font-size: 220%;
+    font-size: 180%;
 }
 
 p {
@@ -145,7 +145,7 @@ p {
 
 h3 {
     font-family: 'Londrina Solid', cursive;
-    font-size: calc((.4em + 2vmin) + (.4em + 2vmax));
+    font-size: calc((.45em + 1vmin) + (.45em + 1vmax));
     line-height: 2.9rem;
     
 }
@@ -165,7 +165,7 @@ h3 {
 
 .menu-column-left, .menu-column-right, .menu-list {
     list-style-type: none;
-    min-height: 24rem;
+    min-height: 23rem;
     overflow: hidden;
   }  
 
@@ -318,4 +318,5 @@ h3 {
 
 h5, h6 {
     font-family: 'montserrat';
+    text-align: center;
 }
