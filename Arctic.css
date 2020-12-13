@@ -72,6 +72,7 @@ nav {
 .home, #menu, .about-us, .contact {
     font-size: calc((.2em + 1vmin) + (.2em + 1vmax));
     
+    
 }
 
 a {
@@ -99,10 +100,12 @@ a {
 h2 {
     font-family: 'Londrina Solid', cursive;
     font-size: 180%;
+    color: rgba(24, 24, 24, 0.911)
 }
 
 p {
     font-family: 'montserrat';
+    color: rgba(24, 24, 24, 0.911)
 }
 
 .second-landing-block {
@@ -158,6 +161,7 @@ h3 {
     font-family: 'Londrina Solid', cursive;
     font-size: calc((.45em + 1vmin) + (.45em + 1vmax));
     line-height: 1.7rem;
+    color: rgba(24, 24, 24, 0.911)
     
 }
 
@@ -286,7 +290,7 @@ h3 {
     text-decoration: none;
     background-color: #d69419;
     border: none;
-    color: white;
+    color: black;
     margin-top: .5rem;
     margin-bottom: 3rem;
     padding-left: 3rem;
