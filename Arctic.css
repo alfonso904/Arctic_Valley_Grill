@@ -321,22 +321,27 @@ h3 {
     
 }
 
-.about-us {  
-    width: 100%;
+.about-us-block {
+    justify-content: center;
+    text-align: center;
     display: inline-flex;
-   
+
 }
 
 .about-us-title {
-    margin-left: 4rem;
     margin-bottom: -0.5rem;
+    justify-content: center;
+    text-align: center;
+    display: inline-flex;
     
 }
 
 .about-us-description {
-     margin-left: 4rem;
-     width: 70%;
-     line-height: 1.5rem;
+    width: 70%;
+    line-height: 1.5rem;
+    justify-content: center;
+    text-align: center;
+    display: inline-flex;
      
 }
 
@@ -774,23 +779,28 @@ h3 {
     
 }
 
-.about-us {  
-    width: 100%;
+.about-us-block {
+    justify-content: center;
+    text-align: center;
     display: inline-flex;
-   
+
 }
 
-.about-us-text {
-    margin-left: 3rem;
+.about-us-title {
     margin-bottom: -0.5rem;
-
+    justify-content: center;
+    text-align: center;
+    display: inline-flex;
+    
 }
 
 .about-us-description {
-     margin-left: 3rem;
-     width: 70%;
-     line-height: 1.5rem;
-      
+    width: 70%;
+    line-height: 1.5rem;
+    justify-content: center;
+    text-align: center;
+    display: inline-flex;
+     
 }
 
 .contact-us {
