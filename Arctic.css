@@ -1,5 +1,9 @@
 @media only screen and (min-width: 1000px) {
 
+html {
+    scroll-behavior: smooth;
+}
+
 * {
     letter-spacing: 1px;;
     
@@ -511,6 +515,11 @@ MOBILE CODE
 
 
 @media only screen and (max-width: 1000px) {
+
+html {
+    scroll-behavior: smooth;
+}
+       
     
 * {
     letter-spacing: 1px;
