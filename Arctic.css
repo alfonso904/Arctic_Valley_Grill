@@ -393,6 +393,7 @@ h3 {
     background-color: rgba(231, 231, 231, 0.849);
     transition: 70ms ease-in-out 70ms;
     text-decoration: underline;
+    transform: scale(1.3);
 
 }
 
