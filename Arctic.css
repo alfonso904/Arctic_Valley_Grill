@@ -520,7 +520,7 @@ input[type=text], textarea {
 
 }
 
-  .fname, .lname, .subject {
+.fname, .lname, .subject {
     font-family: 'Londrina Solid', cursive;
     font-size: calc((.45em + 1vmin) + (.45em + 1vmax));
     display: flex;
@@ -533,7 +533,7 @@ input[type=text], textarea {
 
 }
 
-  #fname, #lname, #subject {
+#fname, #lname, #subject {
     display: flex;
     justify-content: center;
     font-family: 'montserrat';
@@ -554,7 +554,7 @@ input[type=text], textarea {
 .form-button {
     justify-content: center;
     display: flex;
-    
+
 }
   
 
