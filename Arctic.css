@@ -125,6 +125,12 @@ nav {
 
 }
 
+.first-landing-block:hover, .third-landing-block-text:hover, .second-landing-block-text:hover, .fourth-landing-block-text:hover  {
+    transition: 100ms ease-in-out 100ms;
+    transform: scale(1.1);
+
+}
+
 h2 {
     font-family: 'Londrina Solid', cursive;
     font-size: 220%;
@@ -189,6 +195,11 @@ p {
     margin-top: 5rem;
     margin-bottom: calc((2.3em + 1vmin) + (2.3em + 1vmax));
 
+}
+
+.desktop-img:hover {
+    transform: scale(1.1);
+    transition: 100ms ease-in-out 100ms;
 }
 
 .menu {
