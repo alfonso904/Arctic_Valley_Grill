@@ -610,6 +610,11 @@ nav {
 
 }
 
+.first-landing-block:hover, .third-landing-block-text:hover, .second-landing-block-text:hover, .fourth-landing-block-text:hover  {
+    transition: 100ms ease-in-out 100ms;
+    transform: scale(1.05);
+}
+
 a {
     text-decoration: none;
     color: black;
