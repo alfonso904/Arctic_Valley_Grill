@@ -154,7 +154,7 @@ p {
 }
 
 .fourth-landing-block {
-    padding-bottom: 6rem;
+    padding-bottom: 3rem;
     float: right;
     width: 100%;
 
@@ -385,7 +385,7 @@ h3 {
 .call-us-anchor {
     text-decoration: none;
     color: black;
-    
+
 }
 
 .call-us-button:hover {
