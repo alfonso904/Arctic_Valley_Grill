@@ -504,7 +504,8 @@ input[type=text], textarea {
     resize: vertical; 
     justify-content: center;
     display: flex;
-    margin-left: 1rem;
+    align-content: center;
+    margin: auto;
 }
 
   .fname, .lname, .subject {
@@ -515,8 +516,8 @@ input[type=text], textarea {
     float: left;
     margin-top: 1rem;
     margin-bottom: 1rem;
-    margin-left: 1rem;
     color: rgba(24, 24, 24, 0.911);
+    margin-left: 1rem;
 
 }
 
