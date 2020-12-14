@@ -484,6 +484,97 @@ h5, h6 {
 
 
 
+/************
+
+FORM
+
+*************/
+
+
+.form-total {
+    justify-content: center;
+    display: flex;
+}
+
+
+input[type=text], textarea { 
+    width: 85%;
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    resize: vertical; 
+    justify-content: center;
+    display: flex;
+    margin-left: 1rem;
+}
+
+  .fname, .lname, .subject {
+    font-family: 'Londrina Solid', cursive;
+    font-size: calc((.45em + 1vmin) + (.45em + 1vmax));
+    display: flex;
+    justify-content: center;
+    float: left;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    color: rgba(24, 24, 24, 0.911);
+
+}
+
+  #fname, #lname, #subject {
+    display: flex;
+    justify-content: center;
+    font-family: 'montserrat';
+}
+  
+
+  input[type=submit] {
+    background-color: #d69419;
+    border: none;
+    color: black;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-radius: 4px;
+    font-size: 1rem;
+    box-shadow: 10px 10px 35px 7px grey;
+    border: 1px solid black;
+
+}
+
+.text-area {
+    height: 150px;
+}
+
+  .form-button {
+    justify-content: center;
+    display: flex;
+}
+  
+
+  input[type=submit]:hover {
+    background-color: rgba(231, 231, 231, 0.849);
+    transition: 70ms ease-in-out 70ms;
+    text-decoration: underline;
+    transform: scale(1.3);
+  }
+  
+
+  .container {
+    border-radius: 5px;
+    border: 1px solid black;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 5rem;
+    margin-top: 1rem;
+    padding-bottom: 2rem;
+    box-shadow: 10px 10px 35px 7px grey;
+    
+  }
+
+
 
 
 
@@ -683,7 +774,6 @@ p {
 
 }
 
-
 .third-landing-block {
     padding-top: 3rem;
     padding-bottom: 3rem;
@@ -708,7 +798,6 @@ p {
 
 }
 
-
 .menu {
     display: content;
 
@@ -728,8 +817,6 @@ h3 {
     color: rgba(24, 24, 24, 0.911);
     
 }
-
-
 
 .menu-column-left, .menu-column-right {
     float: left;
