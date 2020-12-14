@@ -21,9 +21,8 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     opacity: 0.8;
-   
 
-  }
+}
 
 h1 {
     margin-top: 0;
@@ -75,6 +74,7 @@ nav {
 
 .mobile-nav-list {
     padding: 0;
+
 }
 
 
@@ -90,7 +90,8 @@ nav {
 
 .home:hover, #menu:hover, .about-us:hover, .contact:hover, .bottom-home:hover, .bottom-menu:hover, .bottom-about-us:hover, .bottom-contact:hover {
     text-decoration: underline;
-  }
+
+}
 
 a {
     text-decoration: none;
@@ -100,18 +101,19 @@ a {
 
 .all-landing-blocks {
     display: inline-flex;
+
 }
 
 
 .three-landing-blocks {
     width: 70%;
     
-    
 }
 
 .landing-block {
     padding-top: 5rem;
     padding-bottom: 3rem;
+
 }
 
 .first-landing-block, .third-landing-block-text, .second-landing-block-text, .fourth-landing-block-text {
@@ -121,18 +123,21 @@ a {
     border-radius: 6px;
     box-shadow: 10px 10px 35px 7px grey;
     height: 30%;
+
 }
 
 
 h2 {
     font-family: 'Londrina Solid', cursive;
     font-size: 220%;
-    color: rgba(24, 24, 24, 0.911)
+    color: rgba(24, 24, 24, 0.911);
+
 }
 
 p {
     font-family: 'montserrat';
-    color: rgba(24, 24, 24, 0.911)
+    color: rgba(24, 24, 24, 0.911);
+
 }
 
 .second-landing-block {
@@ -140,6 +145,7 @@ p {
     padding-bottom: 3rem;
     float: right;
     width: 100%;
+
 }
 
 
@@ -148,16 +154,19 @@ p {
     padding-bottom: 6rem;
     float: right;
     width: 100%;
+
 }
 
 .fourth-landing-block {
     padding-bottom: 6rem;
     float: right;
     width: 100%;
+
 }
 
 .right-side-desktop-pics {
-    margin:auto;
+    margin: auto;
+
 }
 
 .desktop-block-pic {
@@ -174,16 +183,19 @@ p {
     height: 50%;
     box-shadow: 10px 10px 35px 7px grey;
     border-radius: 5px;
+
 }
 
 .desktop-block-pic2 {
     margin-top: 5rem;
-    margin-bottom: calc((2.3em + 1vmin) + (2.3em + 1vmax))
+    margin-bottom: calc((2.3em + 1vmin) + (2.3em + 1vmax));
+
 }
 
 
 .menu {
     display: content;
+
 }
 
 .menu-name {
@@ -197,11 +209,9 @@ h3 {
     font-family: 'Londrina Solid', cursive;
     font-size: calc((.6em + 1vmin) + (.6em + 1vmax));
     line-height: 1.7rem;
-    color: rgba(24, 24, 24, 0.911)
+    color: rgba(24, 24, 24, 0.911);
     
 }
-
-
 
 .menu-column-left, .menu-column-right {
     float: left;
@@ -213,32 +223,34 @@ h3 {
     border: 1px solid black;
     border-radius: 6px;
     
-  }
+}
 
   .menu-column-left {
       margin-left: 10%;
       border-right: 0;
       border-top-right-radius: 0;
       border-bottom-right-radius: 0;
-  }
+
+}
 
   .menu-column-right {
       border-left: 0;
       border-top-left-radius: 0;
       border-bottom-left-radius: 0;
-  }
+
+}
 
 .menu-column-left, .menu-column-right, .menu-list {
     list-style-type: none;
     min-height: 12rem;
     overflow: hidden;
-  }  
+
+}  
 
 .right-text {
     margin-right: 2rem;
+
 }
-
-
 
 .menu-column-left, .menu-column-right {
     background: linear-gradient(355deg, #d69419, #d68c19, #d68419, #d69d19, #d6a519, #d6a519, #d6a519, #d6a519);
@@ -247,35 +259,45 @@ h3 {
     -moz-animation: AnimationName 16s ease infinite;
     -o-animation: AnimationName 16s ease infinite;
     animation: AnimationName 16s ease infinite;
+
 }
+
 @-webkit-keyframes AnimationName {
     0%{background-position:48% 0%}
     50%{background-position:53% 100%}
     100%{background-position:48% 0%}
+
 }
+
 @-moz-keyframes AnimationName {
     0%{background-position:48% 0%}
     50%{background-position:53% 100%}
     100%{background-position:48% 0%}
+
 }
+
 @-o-keyframes AnimationName {
     0%{background-position:48% 0%}
     50%{background-position:53% 100%}
     100%{background-position:48% 0%}
+
 }
+
 @keyframes AnimationName {
     0%{background-position:48% 0%}
     50%{background-position:53% 100%}
     100%{background-position:48% 0%}
-}
 
+}
 
 .restaurant {
     position: relative;
+
 }
 
 .signature-entree-block-pic {
     display: none;
+
 }
 
 
@@ -286,6 +308,7 @@ h3 {
     display: inline-flex;
     margin-top: 5rem;
     margin-bottom: 3rem;
+
 }
 
 .restaurant-pic{
@@ -308,7 +331,6 @@ h3 {
     margin-left: 3rem;
     margin-bottom: -0.5rem;
     
-
 }
 
 .about-us-description {
@@ -316,7 +338,6 @@ h3 {
      width: 70%;
      line-height: 1.5rem;
      
-    
 }
 
 .contact-us {
@@ -324,7 +345,6 @@ h3 {
     text-align: center;
     margin-top: 2rem;
    
-    
 }
 
 .call-us, .call-us-body-text {
@@ -339,6 +359,7 @@ h3 {
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 
 .call-us-button {
@@ -356,27 +377,33 @@ h3 {
     font-size: 1rem;
     box-shadow: 10px 10px 35px 7px grey;
     border: 1px solid black;
+
 }
 
 .call-us-button:hover {
     background-color: rgba(231, 231, 231, 0.849);
     transition: 70ms ease-in-out 70ms;
-  }
+
+}
 
 .other-page-footer {
     margin-top: 60rem;
+
 }
 
 .about-us-page-footer {
     margin-top: 4rem;
+
 }
 
 .navigation {
     border-top: 1px solid hsl(0, 0%, 0%);
+
 }
 
 .navigation-ul {
     list-style-type: none;
+
 }
 
 .bottom-home, .bottom-menu, .bottom-about-us, .bottom-contact {
@@ -385,19 +412,23 @@ h3 {
     font-size: 1rem;
     line-height: 2rem;
     letter-spacing: 1px;
+
 }
 
 .contact-us-footer-info {
     list-style-type: none;
+
 }
 
 
 .bottom-footer {
     background-color: #d69419;
+
 }
 
 .bottom-footer-block {
     border-top: 1px solid black;
+
 }
 
 
@@ -405,20 +436,24 @@ h3 {
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 
 
 .navigation-title-footer {
     margin-top: 89rem;
+
 }
 
 .navigation-title-footer-about-us {
     margin-top: 5rem;
+
 }
 
 h5, h6 {
     font-family: 'montserrat';
     text-align: center;
+    
 }
 
 
@@ -475,7 +510,6 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     opacity: 0.8;
-   
 
   }
 
@@ -515,6 +549,7 @@ nav {
     border: 1px solid black;
     border-left: 0;
     border-right: 0;
+
 }
 
 .nav-list  {
@@ -527,6 +562,7 @@ nav {
 
 .mobile-nav-list {
     padding: 0;
+
 }
 
 .home, #menu, .about-us, .contact {
@@ -536,7 +572,8 @@ nav {
 
 .home:hover, #menu:hover, .about-us:hover, .contact:hover, .bottom-home:hover, .bottom-menu:hover, .bottom-about-us:hover, .bottom-contact:hover {
     text-decoration: underline;
-  }
+
+}
 
 a {
     text-decoration: none;
@@ -548,6 +585,7 @@ a {
 .landing-block {
     padding-top: 3rem;
     padding-bottom: 3rem;
+
 }
 
 .first-landing-block {
@@ -557,18 +595,21 @@ a {
     border-top-right-radius: 6px;
     border-bottom-right-radius: 6px;
     border-left: none;
-    box-shadow: 10px 10px 35px 7px grey
+    box-shadow: 10px 10px 35px 7px grey;
+
 }
 
 h2 {
     font-family: 'Londrina Solid', cursive;
     font-size: 180%;
-    color: rgba(24, 24, 24, 0.911)
+    color: rgba(24, 24, 24, 0.911);
+
 }
 
 p {
     font-family: 'montserrat';
-    color: rgba(24, 24, 24, 0.911)
+    color: rgba(24, 24, 24, 0.911);
+
 }
 
 .second-landing-block, .fourth-landing-block {
@@ -576,6 +617,7 @@ p {
     padding-bottom: 3rem;
     float: right;
     width: 100%;
+
 }
 
 .second-landing-block-text, .fourth-landing-block-text {
@@ -587,6 +629,7 @@ p {
     border-right: none;
     box-shadow: 10px 10px 35px 7px grey;
     float: right;
+
 }
 
 
@@ -595,6 +638,7 @@ p {
     padding-bottom: 3rem;
     float: right;
     width: 100%;
+
 }
 
 .third-landing-block-text {
@@ -604,17 +648,19 @@ p {
     border-top-right-radius: 6px;
     border-bottom-right-radius: 6px;
     border-left: none;
-    box-shadow: 10px 10px 35px 7px grey
+    box-shadow: 10px 10px 35px 7px grey;
    
 }
 
 .desktop-block-pic, .desktop-block-pic2 {
     display: none;
+
 }
 
 
 .menu {
     display: content;
+
 }
 
 .menu-name {
@@ -628,7 +674,7 @@ h3 {
     font-family: 'Londrina Solid', cursive;
     font-size: calc((.45em + 1vmin) + (.45em + 1vmax));
     line-height: 1.7rem;
-    color: rgba(24, 24, 24, 0.911)
+    color: rgba(24, 24, 24, 0.911);
     
 }
 
@@ -644,15 +690,15 @@ h3 {
     border: 1px solid black;
     border-left: 0;
     border-right: 0;
-    
 
-  }
+}
 
 .menu-column-left, .menu-column-right, .menu-list {
     list-style-type: none;
     min-height: 20rem;
     overflow: hidden;
-  }  
+
+}  
 
 .right-text {
     margin-right: 2rem;
@@ -665,31 +711,41 @@ h3 {
     -moz-animation: AnimationName 16s ease infinite;
     -o-animation: AnimationName 16s ease infinite;
     animation: AnimationName 16s ease infinite;
+
 }
+
 @-webkit-keyframes AnimationName {
     0%{background-position:48% 0%}
     50%{background-position:53% 100%}
     100%{background-position:48% 0%}
+
 }
+
 @-moz-keyframes AnimationName {
     0%{background-position:48% 0%}
     50%{background-position:53% 100%}
     100%{background-position:48% 0%}
+
 }
+
 @-o-keyframes AnimationName {
     0%{background-position:48% 0%}
     50%{background-position:53% 100%}
     100%{background-position:48% 0%}
+
 }
+
 @keyframes AnimationName {
     0%{background-position:48% 0%}
     50%{background-position:53% 100%}
     100%{background-position:48% 0%}
+
 }
 
 
 .restaurant {
     position: relative;
+
 }
 
 .restaurant, .signature-entree-block-pic {
@@ -698,6 +754,7 @@ h3 {
     width: 100%;
     display: inline-flex;
     margin-top: 3rem;
+
 }
 
 .restaurant-pic, .signature-entree-pic{
@@ -719,7 +776,6 @@ h3 {
 .about-us-text {
     margin-left: 3rem;
     margin-bottom: -0.5rem;
-    
 
 }
 
@@ -727,16 +783,14 @@ h3 {
      margin-left: 3rem;
      width: 70%;
      line-height: 1.5rem;
-     
-    
+      
 }
 
 .contact-us {
     justify-content: center;
     text-align: center;
     margin-top: 2rem;
-   
-    
+      
 }
 
 .call-us, .call-us-body-text {
@@ -751,6 +805,7 @@ h3 {
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 
 .call-us-button {
@@ -768,23 +823,28 @@ h3 {
     font-size: 1rem;
     box-shadow: 10px 10px 35px 7px grey;
     border: 1px solid black;
+
 }
 
 .call-us-button:hover {
     background-color: rgba(231, 231, 231, 0.849);
     transition: 70ms ease-in-out 70ms;
-  }
+
+}
 
 .other-page-footer {
     margin-top: 90rem;
+
 }
 
 .about-us-page-footer {
     margin-top: 4rem;
+
 }
 
 .navigation {
     border-top: 1px solid hsl(0, 0%, 0%);
+
 }
 
 .navigation-ul {
@@ -798,19 +858,23 @@ h3 {
     font-size: 1rem;
     line-height: 2rem;
     letter-spacing: 1px;
+
 }
 
 .contact-us-footer-info {
     list-style-type: none;
+
 }
 
 
 .bottom-footer {
     background-color: #d69419;
+
 }
 
 .bottom-footer-block {
     border-top: 1px solid black;
+
 }
 
 
@@ -818,20 +882,24 @@ h3 {
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 
 
 .navigation-title-footer {
     margin-top: 89rem;
+
 }
 
 .navigation-title-footer-about-us {
     margin-top: 5rem;
+
 }
 
 h5, h6 {
     font-family: 'montserrat';
     text-align: center;
+
 }
 
 
