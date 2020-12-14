@@ -84,18 +84,14 @@ nav {
     padding-left: 2.5rem;
     padding-right: 2.5rem;
     font-weight: 700;
+    text-decoration: none;
+    color: black;
     
    }
 }
 
 .home:hover, #menu:hover, .about-us:hover, .contact:hover, .bottom-home:hover, .bottom-menu:hover, .bottom-about-us:hover, .bottom-contact:hover {
     text-decoration: underline;
-
-}
-
-a {
-    text-decoration: none;
-    color: black;
 
 }
 
@@ -370,7 +366,6 @@ h3 {
 }
 
 .call-us-button {
-    text-decoration: none;
     background-color: #d69419;
     border: none;
     color: black;
@@ -385,6 +380,12 @@ h3 {
     box-shadow: 10px 10px 35px 7px grey;
     border: 1px solid black;
 
+}
+
+.call-us-anchor {
+    text-decoration: none;
+    color: black;
+    
 }
 
 .call-us-button:hover {
@@ -830,7 +831,6 @@ h3 {
 }
 
 .call-us-button {
-    text-decoration: none;
     background-color: #d69419;
     border: none;
     color: black;
@@ -844,6 +844,12 @@ h3 {
     font-size: 1rem;
     box-shadow: 10px 10px 35px 7px grey;
     border: 1px solid black;
+
+}
+
+.call-us-anchor {
+    text-decoration: none;
+    color: black;
 
 }
 
