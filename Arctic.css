@@ -531,8 +531,7 @@ input[type=text], textarea {
     background-color: #d69419;
     border: none;
     color: black;
-    margin-top: 2rem;
-    margin-bottom: 1rem;
+    margin-top: 1rem;
     padding-left: 3rem;
     padding-right: 3rem;
     padding-top: 1rem;
@@ -542,6 +541,11 @@ input[type=text], textarea {
     box-shadow: 10px 10px 35px 7px grey;
     border: 1px solid black;
 
+}
+
+.form-button {
+    margin-top: 2rem;
+    margin-bottom: -2rem;
 }
 
 .text-area {
