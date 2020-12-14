@@ -242,7 +242,7 @@ h3 {
 
 .menu-column-left, .menu-column-right, .menu-list {
     list-style-type: none;
-    min-height: 12rem;
+    min-height: 13rem;
     overflow: hidden;
 
 }  
@@ -327,8 +327,8 @@ h3 {
    
 }
 
-.about-us-text {
-    margin-left: 3rem;
+.about-us-title {
+    margin-left: 4rem;
     margin-bottom: -0.5rem;
     
 }
