@@ -118,6 +118,7 @@ nav {
 .first-landing-block, .third-landing-block-text, .second-landing-block-text, .fourth-landing-block-text {
     border: 1px solid hsl(0, 0%, 0%);
     padding-left: 1rem;
+    padding-right: 1rem;
     margin-left: 2rem;
     border-radius: 6px;
     box-shadow: 10px 10px 35px 7px grey;
@@ -632,6 +633,7 @@ a {
     width: 80%;
     border: 1px solid hsl(0, 0%, 0%);
     padding-left: 1rem;
+    padding-right: 1rem;
     border-top-right-radius: 6px;
     border-bottom-right-radius: 6px;
     border-left: none;
