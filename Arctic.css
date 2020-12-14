@@ -509,7 +509,7 @@ FORM
 
 
 input[type=text], textarea { 
-    width: 85%;
+    width: 100%;
     border: 1px solid #ccc; 
     border-radius: 5px; 
     resize: vertical; 
@@ -525,11 +525,10 @@ input[type=text], textarea {
     font-size: calc((.45em + 1vmin) + (.45em + 1vmax));
     display: flex;
     justify-content: center;
-    float: left;
     margin-top: 1rem;
     margin-bottom: 1rem;
     color: rgba(24, 24, 24, 0.911);
-    margin-left: 1rem;
+
 
 }
 
