@@ -392,6 +392,7 @@ h3 {
 .call-us-button:hover {
     background-color: rgba(231, 231, 231, 0.849);
     transition: 70ms ease-in-out 70ms;
+    text-decoration: underline;
 
 }
 
@@ -421,6 +422,7 @@ h3 {
     font-size: 1rem;
     line-height: 2rem;
     letter-spacing: 1px;
+    text-decoration: none;
 
 }
 
@@ -892,6 +894,7 @@ h3 {
 
 .navigation-ul {
     list-style-type: none;
+    
 
 }
 
