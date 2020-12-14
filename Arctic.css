@@ -694,10 +694,18 @@ h3 {
 
 .menu-column-left, .menu-column-right, .menu-list {
     list-style-type: none;
-    min-height: 20rem;
+    min-height: 22rem;
     overflow: hidden;
 
 }  
+
+@media only screen and (min-width: 400px) {
+    .menu-column-left, .menu-column-right, .menu-list {
+        list-style-type: none;
+        min-height: 18rem;
+        overflow: hidden;
+    }
+}   
 
 .right-text {
     margin-right: 2rem;
