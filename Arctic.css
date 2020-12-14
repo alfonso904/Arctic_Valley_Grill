@@ -7,13 +7,13 @@
 
 body {
     overflow-x: hidden;
+
 }
 
 p {
     font-size: 1rem;
+
 }
-
-
 
 header {
     background-image: url('https://i.imgur.com/i6hPgrI.jpg');
@@ -453,9 +453,8 @@ h3 {
 h5, h6 {
     font-family: 'montserrat';
     text-align: center;
-    
-}
 
+}
 
 
 }
@@ -495,14 +494,14 @@ MOBILE CODE
 @media only screen and (max-width: 1000px) {
     
 * {
-    letter-spacing: 1px;;
+    letter-spacing: 1px;
+
 }
 
 p {
     font-size: 1rem;
+
 }
-
-
 
 header {
     background-image: url('https://i.imgur.com/i6hPgrI.jpg');
@@ -511,7 +510,7 @@ header {
     background-size: cover;
     opacity: 0.8;
 
-  }
+}
 
 h1 {
     margin-top: 0;
