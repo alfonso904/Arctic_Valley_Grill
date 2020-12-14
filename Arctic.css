@@ -598,6 +598,8 @@ nav {
 
 .home:hover, #menu:hover, .about-us:hover, .contact:hover, .bottom-home:hover, .bottom-menu:hover, .bottom-about-us:hover, .bottom-contact:hover {
     text-decoration: underline;
+    transform: scale(1.3);
+    transition: 100ms ease-in-out 100ms;
 
 }
 
