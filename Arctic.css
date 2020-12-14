@@ -564,7 +564,6 @@ nav {
 .nav-list  {
     display: inline-flex;
     margin: 0.3rem;
-    font-family: 'Montserrat', sans-serif;
     text-shadow: 5px 5px 5px 5px #000000;
     font-family: 'Londrina Solid', cursive;
     padding-left: .25rem;
