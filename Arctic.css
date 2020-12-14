@@ -183,6 +183,7 @@ p {
     height: 50%;
     box-shadow: 10px 10px 35px 7px grey;
     border-radius: 5px;
+    border: 1px solid black;
 
 }
 
@@ -318,6 +319,7 @@ h3 {
     height: 60%;
     box-shadow: 10px 10px 35px 7px grey;
     border-radius: 5px;
+    border: 1px solid black;
     
 }
 
@@ -553,6 +555,7 @@ nav {
     border: 1px solid black;
     border-left: 0;
     border-right: 0;
+    height: 3rem;
 
 }
 
@@ -776,6 +779,7 @@ h3 {
     height: 60%;
     box-shadow: 10px 10px 35px 7px grey;
     border-radius: 5px;
+    border: 1px solid black;
     
 }
 
