@@ -197,11 +197,6 @@ p {
 
 }
 
-.desktop-img:hover {
-    transform: scale(1.1);
-    transition: 100ms ease-in-out 100ms;
-}
-
 .menu {
     display: content;
 
