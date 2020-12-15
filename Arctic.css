@@ -397,6 +397,7 @@ h3 {
 .call-us-anchor {
     text-decoration: none;
     color: black;
+    font-family: 'Londrina Solid', cursive;
 
 }
 
@@ -482,8 +483,6 @@ h5, h6 {
 
 }
 
-
-
 /************
 
 FORM
@@ -542,6 +541,12 @@ input[type=text], textarea {
 .form-button {
     margin-top: 2rem;
     margin-bottom: -2rem;
+    
+
+}
+
+.call-us-button {
+    font-family: 'Londrina Solid', cursive;
 
 }
 
@@ -963,12 +968,15 @@ h3 {
 .call-us-anchor {
     text-decoration: none;
     color: black;
+    font-family: 'Londrina Solid', cursive;
 
 }
 
 .call-us-button:hover {
     background-color: rgba(231, 231, 231, 0.849);
     transition: 70ms ease-in-out 70ms;
+    text-decoration: underline;
+    transform: scale(1.3);
 
 }
 
