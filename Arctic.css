@@ -584,6 +584,10 @@ input[type=text], textarea {
 
 
 
+  /* The sticky class is added to the navbar with JS when it reaches its scroll position */
+  
+ 
+
 
 
 
@@ -666,8 +670,6 @@ h1 {
 
 #navbar {
     background-color: #d69419;
-    opacity: 1;
-
 }
 
 
@@ -682,7 +684,7 @@ nav {
     border: 1px solid black;
     border-left: 0;
     border-right: 0;
-    height: 2.5rem;
+    height: 3rem;
 
 }
 
@@ -702,7 +704,7 @@ nav {
     top: 0;
     width: 100%;
   }
-
+  
 
 @media only screen and (min-width: 400px) {
     .nav-list  {
@@ -713,7 +715,6 @@ nav {
         padding-left: .9rem;
         padding-right: .9rem;
         font-size: 2rem;
-
     }
 
     .sticky {
@@ -721,7 +722,6 @@ nav {
         top: 0;
         width: 100%;
       }
-
       
 }
 
@@ -913,9 +913,6 @@ h3 {
     100%{background-position:48% 0%}
 
 }
-
-
-
 
 .restaurant, .signature-entree-block-pic {
     justify-content: center;
