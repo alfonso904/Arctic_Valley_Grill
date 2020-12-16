@@ -508,14 +508,10 @@ FORM
 
 
 input[type=text], textarea { 
-    width: 85%;
+    width: calc((11em + 1vmin) + (11em + 1vmax));
     border: 1px solid #ccc; 
     border-radius: 5px; 
     resize: vertical; 
-    justify-content: center;
-    display: flex;
-    align-content: center;
-    margin: auto;
 
 }
 
@@ -561,6 +557,32 @@ input[type=text], textarea {
 
 }
   
+
+@media only screen and (max-width: 1000px) { 
+
+
+    .container {
+        border-radius: 5px;
+        border: 1px solid black;
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 2rem;
+        box-shadow: 4px 4px 15px 4px grey;
+        width: 60%;
+        max-width: 500px;
+        
+    }
+
+    input[type=text], textarea { 
+        width: 95%;
+        border: 1px solid #ccc; 
+        border-radius: 5px; 
+        resize: vertical; 
+        
+    
+    }
+
+}    
 
 
 
