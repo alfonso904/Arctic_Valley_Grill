@@ -666,6 +666,9 @@ h1 {
 
 #navbar {
     background-color: #d69419;
+    opacity: 1;
+    height: 2rem;
+
 }
 
 
@@ -680,7 +683,6 @@ nav {
     border: 1px solid black;
     border-left: 0;
     border-right: 0;
-    height: 3rem;
 
 }
 
@@ -695,13 +697,6 @@ nav {
     
 }
 
-.sticky {
-    position: fixed;
-    top: 0;
-    width: 100%;
-  }
-
-  
 
 @media only screen and (min-width: 400px) {
     .nav-list  {
