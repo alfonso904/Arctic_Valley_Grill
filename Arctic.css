@@ -1,11 +1,12 @@
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 1001px) {
 
 html {
     scroll-behavior: smooth;
+
 }
 
 * {
-    letter-spacing: 1px;;
+    letter-spacing: 1px;
     
 }
 
@@ -24,20 +25,21 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    opacity: 0.8;
-
-}
-
-h1 {
-    margin-top: 0;
+    opacity: 0.86;
+    height: calc((7em + 1vmin) + (7em + 1vmax));
+    margin: auto;
     display: flex;
     justify-content: center;
     text-align: center;
     align-items: center;
-    padding-top: 7rem;
-    padding-bottom: 7rem;
+
+}
+
+h1 {
+    padding-left: .25rem;
+    padding-right: .25rem;
     font-family: 'Londrina Solid', cursive;
-    font-size: 630%;
+    font-size: 640%;
     letter-spacing: 3px;
     color: rgba(253, 253, 253, 0.863);
     opacity: 1.4;
@@ -53,7 +55,7 @@ h1 {
 
 
 nav {
-    margin-top: -4.2rem;
+    
     text-align: center;
     display: flex;
     justify-content: space-evenly;
@@ -125,14 +127,8 @@ nav {
     padding-right: 1rem;
     margin-left: 2rem;
     border-radius: 6px;
-    box-shadow: 4px 4px 15px 4px grey;
+    box-shadow: 4px 4px 13px 2px grey;
     height: 30%;
-
-}
-
-.first-landing-block:hover, .third-landing-block-text:hover, .second-landing-block-text:hover, .fourth-landing-block-text:hover  {
-    transition: 100ms ease-in-out 100ms;
-    transform: scale(1.1);
 
 }
 
@@ -190,7 +186,7 @@ p {
     max-width: 65%;
     max-height: 65%;
     height: 50%;
-    box-shadow: 4px 4px 15px 4px grey;
+    box-shadow: 4px 4px 13px 2px grey;
     border-radius: 5px;
     border: 1px solid black;
 
@@ -325,7 +321,7 @@ h3 {
     max-width: 100%;
     max-height: 100%;
     height: 60%;
-    box-shadow: 4px 4px 15px 4px grey;
+    box-shadow: 4px 4px 13px 2px grey;
     border-radius: 5px;
     border: 1px solid black;
     
@@ -389,7 +385,7 @@ h3 {
     padding-bottom: 1rem;
     border-radius: 4px;
     font-size: 1rem;
-    box-shadow: 4px 4px 15px 4px grey;
+    box-shadow: 4px 4px 13px 2px grey;
     border: 1px solid black;
 
 }
@@ -497,7 +493,7 @@ FORM
     margin-bottom: 5rem;
     margin-top: 1rem;
     padding-bottom: 2rem;
-    box-shadow: 4px 4px 15px 4px grey;
+    box-shadow: 4px 4px 13px 2px grey;
     
 }
 
@@ -567,7 +563,7 @@ input[type=text], textarea {
         margin-left: auto;
         margin-right: auto;
         padding-bottom: 2rem;
-        box-shadow: 4px 4px 15px 4px grey;
+        box-shadow: 4px 4px 13px 2px grey;
         width: 60%;
         max-width: 500px;
         
@@ -637,20 +633,23 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    opacity: 0.8;
-
-}
-
-h1 {
-    margin-top: 0;
+    opacity: 0.86;
+    height: calc((5em + 1vmin) + (5em + 1vmax));
+    margin: auto;
     display: flex;
     justify-content: center;
     text-align: center;
     align-items: center;
-    padding-top: 7rem;
-    padding-bottom: 7rem;
+
+}
+
+h1 {
+    padding-top: 5.25rem;
+    padding-bottom: 4rem;
+    padding-left: .25rem;
+    padding-right: .25rem;
     font-family: 'Londrina Solid', cursive;
-    font-size: 340%;
+    font-size: 320%;
     letter-spacing: 3px;
     color: rgba(253, 253, 253, 0.863);
     opacity: 1.4;
@@ -666,7 +665,6 @@ h1 {
 
 
 nav {
-    margin-top: -2.3rem;
     text-align: center;
     display: flex;
     justify-content: space-evenly;
@@ -721,11 +719,6 @@ nav {
 
 }
 
-.first-landing-block:hover, .third-landing-block-text:hover, .second-landing-block-text:hover, .fourth-landing-block-text:hover  {
-    transition: 100ms ease-in-out 100ms;
-    transform: scale(1.05);
-}
-
 a {
     text-decoration: none;
     color: black;
@@ -747,7 +740,7 @@ a {
     border-top-right-radius: 6px;
     border-bottom-right-radius: 6px;
     border-left: none;
-    box-shadow: 4px 4px 15px 4px grey;
+    box-shadow: 4px 4px 13px 2px grey;
 
 }
 
@@ -779,7 +772,7 @@ p {
     border-top-left-radius: 6px;
     border-bottom-left-radius: 6px;
     border-right: none;
-    box-shadow: 4px 4px 15px 4px grey;
+    box-shadow: 4px 4px 13px 2px grey;
     float: right;
 
 }
@@ -799,7 +792,7 @@ p {
     border-top-right-radius: 6px;
     border-bottom-right-radius: 6px;
     border-left: none;
-    box-shadow: 4px 4px 15px 4px grey;
+    box-shadow: 4px 4px 13px 2px grey;
    
 }
 
@@ -918,7 +911,7 @@ h3 {
     max-width: 100%;
     max-height: 100%;
     height: 60%;
-    box-shadow: 4px 4px 15px 4px grey;
+    box-shadow: 4px 4px 13px 2px grey;
     border-radius: 5px;
     border: 1px solid black;
     
@@ -982,7 +975,7 @@ h3 {
     padding-bottom: 1rem;
     border-radius: 4px;
     font-size: 1rem;
-    box-shadow: 4px 4px 15px 4px grey;
+    box-shadow: 4px 4px 13px 2px grey;
     border: 1px solid black;
 
 }
