@@ -25,7 +25,7 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    opacity: 0.86;
+    opacity: 0.80;
     height: calc((7em + 1vmin) + (7em + 1vmax));
     margin: auto;
     display: flex;
@@ -633,7 +633,7 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    opacity: 0.86;
+    opacity: 0.80;
     height: calc((5em + 1vmin) + (5em + 1vmax));
     margin: auto;
     display: flex;
