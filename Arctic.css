@@ -1,5 +1,6 @@
 @media only screen and (min-width: 1001px) {
 
+
 html {
     scroll-behavior: smooth;
 
@@ -316,7 +317,7 @@ h3 {
 
 }
 
-.restaurant-pic{
+.restaurant-pic {
     width: 75%;
     max-width: 100%;
     max-height: 100%;
@@ -415,28 +416,36 @@ h3 {
 
 }
 
-.navigation {
+.nav-and-contact-us {
+    display: inline-flex;
     border-top: 1px solid hsl(0, 0%, 0%);
+    width: 100%;
+    margin-top: 5rem;
+}
+
+.navigation {
+    margin-right: 5rem;
 
 }
 
-.navigation-ul {
-    list-style-type: none;
-
+#contactlink {
+    margin-bottom: 3rem;
 }
 
-.bottom-home, .bottom-menu, .bottom-about-us, .bottom-contact {
+.bottom-home, .bottom-menu, .bottom-about-us, .bottom-contact, .navigation-ul, .contact-us-footer-info {
     font-family: 'montserrat';
     color: rgba(24, 24, 24, 0.911);
     font-size: 1rem;
     line-height: 2rem;
     letter-spacing: 1px;
     text-decoration: none;
+    list-style-type: none;
 
 }
 
 .contact-us-footer-info {
     list-style-type: none;
+    line-height: 1rem;
 
 }
 
@@ -448,6 +457,9 @@ h3 {
 
 .bottom-footer-block {
     border-top: 1px solid black;
+    height: 2rem;
+    padding-top: 1rem;
+    margin-top: 2rem;
 
 }
 
@@ -606,6 +618,7 @@ MOBILE CODE
 
 
 @media only screen and (max-width: 1000px) {
+
 
 html {
     scroll-behavior: smooth;
@@ -1017,26 +1030,27 @@ h3 {
 
 }
 
-.navigation-ul {
-    list-style-type: none;
+#contactlink {
+    margin-bottom: 3rem;
     
-
 }
-
-.bottom-home, .bottom-menu, .bottom-about-us, .bottom-contact {
+    
+.bottom-home, .bottom-menu, .bottom-about-us, .bottom-contact, .navigation-ul, .contact-us-footer-info {
     font-family: 'montserrat';
     color: rgba(24, 24, 24, 0.911);
     font-size: 1rem;
     line-height: 2rem;
     letter-spacing: 1px;
-
+    text-decoration: none;
+    list-style-type: none;
+    
 }
-
+    
 .contact-us-footer-info {
     list-style-type: none;
-
+    line-height: 1rem;
+    
 }
-
 
 .bottom-footer {
     background-color: #d69419;
@@ -1045,6 +1059,9 @@ h3 {
 
 .bottom-footer-block {
     border-top: 1px solid black;
+    height: 1rem;
+    padding-top: 1rem;
+    margin-top: 1rem;
 
 }
 
@@ -1072,6 +1089,7 @@ h5, h6 {
     text-align: center;
 
 }
+
 
 
 }
