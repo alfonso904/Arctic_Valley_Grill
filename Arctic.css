@@ -1027,7 +1027,16 @@ h3 {
 
 .navigation {
     border-top: 1px solid hsl(0, 0%, 0%);
+    margin-top: 3rem;
 
+}
+
+#mobile-nav {
+    margin-top: 85rem;
+}
+
+#mobile-nav2 {
+    margin-top: 7rem;
 }
 
 #contactlink {
